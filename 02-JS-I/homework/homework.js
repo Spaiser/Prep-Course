@@ -266,7 +266,7 @@ function esVocal(letra){
   {
     return "es vocal";
   }
-  else if (letra = "e")"
+  else if (letra = "e")
   {
     return "es vocal";
   }
