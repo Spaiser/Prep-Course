@@ -158,22 +158,19 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  var redondeo = math.round(num);
-  return redondeo;
+  return math.round(num);
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  var redondeo = math.ceil(num);
-  return redondeo;
+  return math.ceil(num);
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  var redondeo = math.floor(num);
-  return redondeo;
+  return math.random();
 }
 
 function esPositivo(numero) {
