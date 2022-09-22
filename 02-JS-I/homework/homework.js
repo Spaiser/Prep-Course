@@ -215,7 +215,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var resultado = "Hola " + nombre;
+  var resultado = "Hola " + nombre + "!";
   return resultado;
 }
 
@@ -247,7 +247,8 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
+  var resultado = euro * 1.20;
+  return resultado;
 }
 
 
@@ -257,7 +258,34 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  if (letra.lenght > 1)
+  {
+    return "Dato incorrecto";
+  }
+  else if (letra = "a")
+  {
+    return "es vocal";
+  }
+  else if (letra = "e")
+  {
+    return "es vocal";
+  }
+  else if (letra = "i")
+  {
+    return "es vocal";
+  }
+  else if (letra = "o")
+  {
+    return "es vocal";
+  }
+  else if (letra = "u")
+  {
+    return "es vocal";
+  }
+  else 
+{
+  return "Dato incorrecto";
+}
 }
 
 
