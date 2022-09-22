@@ -262,29 +262,30 @@ function esVocal(letra){
   {
     return "Dato incorrecto";
   }
-  else if (letra = "a")
+  if (letra = "a")
   {
     return "Es vocal";
   }
-  else if (letra = "e")
+  if (letra = "e")
   {
     return "Es vocal";
   }
-  else if (letra = "i")
+  if (letra = "i")
   {
     return "Es vocal";
   }
-  else if (letra = "o")
+  if (letra = "o")
   {
     return "Es vocal";
   }
-  else if (letra = "u")
+  if (letra = "u")
   {
     return "Es vocal";
   }
-  else
-    return "Dato incorrecto";
+  return "Dato incorrecto";
+  
 }
+
 
 
 
