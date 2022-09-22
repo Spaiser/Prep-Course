@@ -158,19 +158,22 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  
+  var redondeo = math.round(num);
+  return redondeo;
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  
+  var redondeo = math.ceil(num);
+  return redondeo;
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  
+  var redondeo = math.floor(num);
+  return redondeo;
 }
 
 function esPositivo(numero) {
@@ -178,7 +181,18 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  
+  if (numero < 0)
+  {
+    return "Es negativo";
+  }
+  else if (numero >0)
+  {
+    return "Es positivo";
+  }
+  else if (numero === 0)
+  {
+    return false;
+  }
 }
 
 function agregarSimboloExclamacion(str) {
