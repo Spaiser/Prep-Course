@@ -264,23 +264,23 @@ function esVocal(letra){
   }
   else if (letra = "a")
   {
-    return "es vocal";
+    return "Es vocal";
   }
   else if (letra = "e")
   {
-    return "es vocal";
+    return "Es vocal";
   }
   else if (letra = "i")
   {
-    return "es vocal";
+    return "Es vocal";
   }
   else if (letra = "o")
   {
-    return "es vocal";
+    return "Es vocal";
   }
   else if (letra = "u")
   {
-    return "es vocal";
+    return "Es vocal";
   }
   else 
 {
