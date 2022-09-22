@@ -28,7 +28,7 @@ function mayoriaDeEdad(edad) {
     return "Allowed";
   }
   else
-  return "Not Allowed";
+  return "Not allowed";
 }
   
 function conection(status) {
