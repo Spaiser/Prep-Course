@@ -262,23 +262,23 @@ function esVocal(letra){
   {
     return "Dato incorrecto";
   }
-  else if (letra = a)
+  else if (letra = "a")
   {
     return "es vocal";
   }
-  else if (letra = e)
+  else if (letra = "e")"
   {
     return "es vocal";
   }
-  else if (letra = i)
+  else if (letra = "i")
   {
     return "es vocal";
   }
-  else if (letra = o)
+  else if (letra = "o")
   {
     return "es vocal";
   }
-  else if (letra = u)
+  else if (letra = "u")
   {
     return "es vocal";
   }
@@ -286,7 +286,7 @@ function esVocal(letra){
 {
   return "Dato incorrecto";
 }
-}
+
 
 
 
