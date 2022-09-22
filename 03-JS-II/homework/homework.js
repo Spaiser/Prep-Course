@@ -23,7 +23,7 @@ function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
-  if (edad > 18)
+  if (edad > 18 || edad ===18)
   {
     return "Allowed";
   }
@@ -40,10 +40,11 @@ function conection(status) {
   {
     return "Online";
   }
-  if (status === 2)
+  else if (status === 2)
   {
     return "Away";
   }
+  else
   return "Offline";
 }
 
@@ -58,18 +59,19 @@ function saludo(idioma) {
   {
     return "Guten Tag!";
   }
-  if (idioma === "mandarin")
+  else if (idioma === "mandarin")
   {
     return "Ni Hao!";
   }
-  if (idioma === "ingles")
+  else if (idioma === "ingles")
   {
     return "Hello!";
   }
-  if (idioma === undefined)
+  else if (idioma === undefined)
   {
     return "Hola!";
   }
+  else
   return "Hola!";
 }
 
