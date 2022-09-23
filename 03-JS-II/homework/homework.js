@@ -103,15 +103,11 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-  switch (numero)
+  if (numero === 10 || numero === 5)
   {
-    case 5:
-      "true";
-    case 10:
-      "true";
-    default:
-      "false";
+    return true;
   }
+  return false;
 }
 
 function estaEnRango(numero) {
@@ -120,10 +116,10 @@ function estaEnRango(numero) {
   // Tu código:
   if (numero < 50 && numero >20)
   {
-    return "true";
+    return true;
   }
   else
-  return "false";
+  return false;
 }
 
 function esEntero(numero) {
